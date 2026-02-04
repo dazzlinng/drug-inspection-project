@@ -1,0 +1,33 @@
+
+========================================
+  TASK COMPLETION REPORT
+========================================
+
+Start Time: 2026-01-02 03:35:25
+End Time: 2026-01-02 12:42:24
+
+Processing Summary:
+- Total Drugs: 2748
+- Success: 2742 (99.78%)
+- Failed: 6 (0.22%)
+- Results Generated: 2722 files
+
+Failed Drugs:
+1. 头孢孟多酯钠 - JSON parsing error
+2. 氟氯西林钠 - JSON parsing error
+3. 盐酸曲马多缓释胶囊 - Timeout (retried 3 times)
+4. 盐酸利多卡因 - Timeout (retried 3 times)
+5. 注射用奥沙利铂 - Timeout (retried 3 times)
+6. 磷酸苯丙哌林 - JSON parsing error
+
+Quality Metrics (Sample: First 100 files):
+- Total Inspection Items: 474
+- Total Consumables Extracted: 2,144
+- Total "适量" Converted to -1: 725
+- Average Fuzzy per File: 7.25
+
+Output Location: ./results/
+Error Log: ./failed_drugs.log
+
+========================================
+
