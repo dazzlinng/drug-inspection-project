@@ -1,0 +1,14 @@
+# Large files and data
+*.json
+*.npy
+*.npz
+*.pkl
+*.pickle
+models/
+embeddings/
+data/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+Thumbs.db
